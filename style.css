@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #eaeaea;
+  line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+  background-color: #1e1e1e;
+  box-shadow: 0 2px 4px #00000050;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00c3ff;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px 20px 60px;
+  background: linear-gradient(135deg, #232323, #181818);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #00c3ff;
+  display: inline-block;
+}
+
+/* Projects */
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.project {
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #00000030;
+  border-left: 4px solid #00c3ff;
+}
+
+.project h3 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.project p {
+  margin-bottom: 10px;
+  color: #bbb;
+}
+
+.project a,
+.project span {
+  color: #00c3ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 25px;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Contact */
+.contact a {
+  color: #00c3ff;
+}
+
+.contact-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.3s ease;
+  border: none;
+}
+
+.contact-btn i {
+  font-size: 1.2rem;
+}
+
+/* Styl dla Discorda */
+.contact-btn.discord {
+  background-color: #5865F2;
+  color: white;
+}
+
+.contact-btn.discord:hover {
+  background-color: #4752c4;
+}
+
+/* Styl dla GitHuba */
+.contact-btn.github {
+  background-color: #333;
+  color: white;
+}
+
+.contact-btn.github:hover {
+  background-color: #111;
+}
