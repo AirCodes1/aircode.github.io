@@ -174,3 +174,12 @@ footer {
 .contact-btn.github:hover {
   background-color: #111;
 }
+
+.contact-btn.coffee {
+  background-color: #ffdd00;
+  color: #000;
+}
+
+.contact-btn.coffee i {
+  margin-right: 5px;
+}
