@@ -1,1 +1,1 @@
-const projectDiv = getElementbyId("project")
+const el = document.querySelector("project");
